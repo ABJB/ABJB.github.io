@@ -1,27 +1,234 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<meta charset="UTF-8">
 	<title>About Me</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+	 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="responsive.js"></script>
 </head>
-<body>
+<body onload="onload()">
 <section id="cover">
-		
+	<div class ="underlay">
+		<div class="container">
+			<div class="row">
+				<div class="underlayImg  col-6 col-md-3 col-sm-3">
+					<img src="data/mugshot.jpg">
+				</div>
+				<div class="underlayContent col-6 col-md-9 col-sm-3">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sideLay">
+		<table>
+			<tr class="sideLayIt">
+				<div class="sideLayIt">
+					<img src="data/logo-github.svg">
+				</div>			
+			</tr>
+			<tr class="sideLayIt">
+				<div class="sideLayIt">
+					<img src="data/logo-fb.svg">
+				</div>			
+			</tr>
+			<tr class="sideLayIt">
+				<div class="sideLayIt">
+					<img src="data/logo-github.svg">
+				</div>			
+			</tr>
+			<tr class="sideLayIt">
+				<div class="sideLayIt">
+					<img src="data/logo-fb.svg">
+				</div>			
+			</tr>
+		</table>	
+	</div>
 </section>
 <section id="intro">
-	
+	<div class="sectionBanner">About Me</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. written in 45 BC. </div>
+  			<div class="col-12 col-md-4">
+  				<div>
+  					<img style="width: 80%;height:auto;"src="data/mugshot.jpg">
+  				</div>
+  			</div>
+		</div>
+	</div>
 </section>
-<section id="skills">
-	
+
+<section id="skills flip-left">
+	<h2 class="sectionBanner">Skills</h2>
+	<div class="container" >
+		<div class="row">
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-pytorch.svg">
+				</div>
+				<div class="skillText textMain">
+					Pytorch
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-java.svg">
+				</div>
+				<div class="skillText textMain">
+					Java
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-python.svg">
+				</div>
+				<div class="skillText textMain">
+					Python
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-nodejs.svg">
+				</div>
+				<div class="skillText textMain">
+					Nodejs
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-numpy.svg">
+				</div>
+				<div class="skillText textHead">
+					Numpy
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-pandas.svg">
+				</div>
+				<div class="skillText textMain">
+					Pandas
+				</div>
+			</div>
+
+			<div class="skill col-sm-3 col-md-2 col-lg-2">
+				<div class="skillImg">
+					<img src="data/logo-opencv.svg">
+				</div>
+				<div class="skillText textMain">
+					OpenCV
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
+
 <section id="progcareer">
+	<h2 class="sectionBanner">Programming Career<h2>
+	<div class="container">
+		<div class="row">
+			<div class="progArena col-sm-3 col-md-2 col-lg-2" >
+				<a class="progArenaLogo"  href="#">
+					<img src="data/logo-codeforces.svg">
+				</a>
+				<div class="progArenaContent">
+					<div class="textMain">CodeForces</div>
+					<div class="textSub">Rating</div>
+				</div>
+			</div>
+			<div class="progArena col-sm-3 col-md-2 col-lg-2">
+				<a class="progArenaLogo" href="#">
+					<img src="data/logo-codechef.svg">
+				</a>
+				<div class="progArenaContent">
+					<div class="textMain">CodeChef</div>
+					<div class="textSub">Rating</div>
+				</div>
+			</div>
+
+			<div class="progArena col-sm-3 col-md-2 col-lg-2">
+				<a class="progArenaLogo" href="#">
+					<img src="data/logo-leetcode.svg">
+				</a>
+				<div class="progArenaContent">
+					<div class="textMain">LeetCode</div>
+					<div class="textSub">Rating</div>
+				</div>
+			</div>
+
+			<div class="progArena col-sm-3 col-md-2 col-lg-2">
+				<a class="progArenaLogo" href="#">
+					<img src="data/logo-kaggle.svg">
+				</a>
+				<div class="progArenaContent">
+					<div class="textMain">Kaggle</div>
+					<div class="textSub">Rating</div>
+				</div>
+			</div>
+			<div class="progArena col-sm-3 col-md-2 col-lg-2">
+				<a class="progArenaLogo" href="#">
+					<img src="data/logo-hackerrank.svg">
+				</a>
+				<div class="progArenaContent">
+					<div class="textMain">Hackerrank</div>
+					<div class="textSub">Rating</div>
+				</div>
+			</div>
+		</div>
+	</div>	
 </section>
-<section id="mlcareer">
-	
+
+
+
+<section id="projects">	
+	<h2 class="sectionBanner">Time Line</h2>
+	  <div class="container">
+	    <ul class="timeline">
+	      <li>
+	        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+	        <div class="timeline-panel">
+	          <div class="timeline-heading">
+	            <h4 class="timeline-title">Heading</h4>
+	            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Time </small></p>
+	          </div>
+	          <div class="timeline-body">
+	            <p>Content</p>
+	          </div>
+	        </div>
+	      </li>
+	      <li class="timeline-inverted">
+	        <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+	        <div class="timeline-panel">
+	          <div class="timeline-heading">
+	            <h4 class="timeline-title">Heading</h4>
+	            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Time </small></p>
+	          </div>
+	          <div class="timeline-body">
+	            <p>Content</p>
+	          </div>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
 </section>
-<section id="projectsexp">
-	
-</section>
+
 <section id="contact">
+	<h2 class="sectionBanner">Contact Me</h2>
+	<div class="contactDis"></div>
+	<div>Click Here</div>
 </section>
+
+<footer id="footer">
+	<p>Made by Me</p>
+</footer>
+
 </body>
 </html>
