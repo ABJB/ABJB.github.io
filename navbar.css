@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+nav {
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 1;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+}
+nav a{
+    color: white;
+}
+
+nav div{
+    width: 80%;
+    margin:5px auto;
+    display: flex;
+    align-items: center;
+}
+.nav-head{
+    font-family: 'Krona One', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: black;
+    width: 11%;
+    display: block;
+    margin: 0 0 0 0;
+    color: white;
+}
+.nav-titles{
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    margin: 0 0 0 0;
+    width: auto;
+}
+.nav-logos{
+    width: auto;
+    margin-right: 0;
+}
+
+.nav-drop-logos a{
+    margin-right: 5%;
+}
+
+.nav-sec{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    margin: 0 0 0 0;
+    min-width: 150px
+}
+
+.nav-sec-ri{
+    width: auto;
+    margin: 0 3% 0 0;
+    align-self: flex-end;
+}
+
+.swindle{
+    display: none;
+    width: auto;
+    margin-right: 0;
+    border: 0;
+    transform: rotate(90deg);
+}
+.swindle button{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    outline: none;
+    border:none;
+    font-weight: bolder;
+}
+.swindle-button-effect {
+    transform: translateY(4px);
+    transform: rotate(-90deg);
+}
+.nav-drop{
+    font-family: 'Oswald', sans-serif;
+    display: none;
+    width: auto;
+    margin-right: 0;
+    border: 0;
+    font-size: 1.5em;
+    width: 100%;
+}
+.nav-drop div{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.nav-drop-vis{
+    display: inline-block;
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+    nav div{
+        width: 90%;
+    }
+    .nav-sec{
+        min-width: 100px;
+    }
+}
+.nav-sec :hover{
+    transition: all 0.7s ease-in-out 0s;
+    text-shadow: 5px 5px 5px red;
+    background-color: orange;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar-block div:not(:first-child) {display: none;}
+  .navbar-block div:nth-last-child(1){
+    display: flex;
+  }
+}

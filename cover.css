@@ -1,0 +1,273 @@
+#cover{
+	background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0.4) 55%), url(data/coverImg.jpg);
+    background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	margin: 0 -10px 0 -10px;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+}
+.coverContain{
+	width: 50vw;
+	color: white;
+    text-align: end;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+
+/*
+ *
+ **/
+#intro{
+	color: white;
+	width: 100vw;
+    margin-right: -1px;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0.4) 55%);
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+  	display: -webkit-flex;
+  	display: flex;
+  	flex-wrap: wrap;
+  	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+}
+.introTxt{
+	width: 70%;
+}
+.introTxt div{
+	width: 70%;
+	margin:0 auto;
+	font-size: 1.5em;	
+}
+.introImg{
+	width: 30%;
+}
+
+
+/*
+ *
+ **/
+#skills{
+    background-image: url("data/coding1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+.skill{
+    max-width: 16%;
+    flex: 1 0 21%;
+}
+
+.skillText{
+	width: fit-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: white;
+}
+
+.skillImg{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skill:hover .skillText{
+	transform: scale(1.3,1.3);
+	transition: all 0.5s ease-out;
+}
+
+.skill:hover .skillImg{
+	transform: scale(1.2,1.2);
+	transition: all 0.5s ease-out;
+}
+
+/*
+ *
+ **/
+#progCareer{
+	color: white;
+	margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0.4) 55%);
+    background-attachment: fixed;
+}
+
+.progArena{
+	max-width: 7%;
+	flex: 1 0 21%;
+	margin: 0 auto;		 	
+}
+.progArenaLogo{
+	width: 64%;
+	margin: 0 auto;
+}
+.progArenaContent{
+    width: 100%;
+    text-align: center;
+}
+.textMain{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.textSub{
+	font-style: oblique;
+}
+
+.progArena:hover .textSub{
+	transform: scale(1.2,1.2);
+	transition: all 0.5s ease-out;
+}
+.progArena:hover .progArenaLogo{
+	transform: scale(1.2,1.2);
+	transition: all 0.5s ease-out;
+}
+
+
+
+.sectionBanner{
+	width: 100vw;
+	font-size: 2em;
+	/*font-weight: bold;*/
+	color: white;
+	margin: 0 auto 3%;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+
+section{
+	margin-top: 5vh;
+}
+
+
+/*
+ *
+ */
+#contactme{	
+	margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("data/coding2.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    color: white;
+}
+.cm1{
+    width: 100%;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.cm1-sub{
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+    display: inherit;
+    margin: 0 auto;
+}
+.cm1-email{
+    display: inherit;
+    margin: 0 auto;
+    font-size: 0.8em;	
+}
+
+/*
+ *
+ */
+
+#footer{
+	height: 150px;
+	padding-top: 2%;background-image: linear-gradient(to bottom, #000000, rgb(134 134 160 / 0%));
+	background-attachment: fixed;
+}
+.f1{
+	font-size: 1.5em;
+    width: 100%;
+	text-align: center;
+}
+.f2{
+	font-size: 1.5em;
+    width: 100%;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1100px) {
+	.coverContain{
+		width: 80vw;
+	}
+	.container{
+		display: inline-block;
+		width: 100vw;
+		margin-right: -1px;
+	}
+	.introImg{
+		width: 100%;
+		margin: 0 auto;
+	  	display: -webkit-flex;
+	  	display: flex;
+	  	-webkit-align-items: center;
+	  	align-items: center;
+	  	-webkit-justify-content: center;
+	  	justify-content: center;
+	}
+	.introTxt div{
+		width: 100vw;
+		text-align: center;
+		font-size: 1em;
+	}
+	.skill{
+	    max-width: 30%;
+	    margin:0 0 0 0;
+	    display: inline-block;
+	}
+	.progArena{
+		max-width: 30%;
+		display: inline-block;
+	}
+	.textMain{
+		font-size: 1em;
+	}
+	#footer{
+		padding-top: 3%;
+		height: 100px;
+	}
+}
+
+
+
+#sublime{
+	/*background-color: #999aac;*/
+	background-color: white
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	margin: 0 -1px 0 -1px;
+}
+
+body{
+	margin: 0 0 0 0;
+	background-image: linear-gradient(to bottom, #000000, rgb(134 134 160 / 0%));
+	width: 100vh;
+	height: 100vh;
+	background-attachment: fixed;
+}

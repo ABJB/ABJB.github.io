@@ -8,7 +8,7 @@ Landing Zone
 about me
 Skills
 Programming Career
-Machine Leanrning Career
+Projects
 Profressional Career
 Contact me
 
