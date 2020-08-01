@@ -1,6 +1,4 @@
 #cover{
-	background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0.4) 55%), url(data/coverImg.jpg);
-    background-attachment: fixed;
 	height: 100vh;
 	width: 100vw;
 	margin: 0 -10px 0 -10px;
@@ -11,12 +9,22 @@
   	-webkit-justify-content: center;
   	justify-content: center;
 }
+.blur{
+	background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0.4) 55%), url(data/coverImg.jpg);
+    background-attachment: fixed;
+    filter: blur(10px);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
 .coverContain{
 	width: 50vw;
 	color: white;
     text-align: end;
     font-size: 3.5em;
     font-weight: bold;
+    position: absolute;
 }
 
 
