@@ -124,6 +124,7 @@
 .progArenaLogo{
 	width: 64%;
 	margin: 0 auto;
+	text-align: center;
 }
 .progArenaContent{
     width: 100%;
@@ -132,9 +133,11 @@
 .textMain{
 	font-size: 1.5em;
 	font-weight: bold;
+	color: white;
 }
 
 .textSub{
+	color: white;
 	font-style: oblique;
 }
 
@@ -161,9 +164,30 @@
 
 section{
 	margin-top: 5vh;
+	scroll-margin-top: 25vh;
 }
 
 
+/*
+ *
+ */
+#career{
+	color: white;
+	margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.4),rgba(0,0,0,0) 55%);
+    background-attachment: fixed;
+}
+#career > .container{
+	display: block;
+}
+
+
+.careerJob{
+	width: 50%;
+	margin-left: 0px;	
+}
 /*
  *
  */
@@ -259,6 +283,9 @@ section{
 	#footer{
 		padding-top: 3%;
 		height: 100px;
+	}
+	.careerJob{
+		width: 100%;	
 	}
 }
 
