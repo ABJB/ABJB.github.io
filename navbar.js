@@ -24,3 +24,12 @@ function myFunction(){
   		element.classList.remove("nav-drop-vis");
   	}
 }
+
+function copy() {
+  newClip=document.querySelector("#copyTxt1").innerText;
+  navigator.clipboard.writeText(newClip).then(function() {
+      
+  }, function() {
+    
+  });
+}

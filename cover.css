@@ -216,11 +216,22 @@ section{
 	font-size: 20px;
     display: inherit;
     margin: 0 auto;
+    border-radius: 50px;
+    outline: none;
 }
+
+.cm1-sub:active {
+	background-color: orange;
+	box-shadow: 0 5px gray;
+	transform: translateY(2px);
+
+}
+
+
 .cm1-email{
     display: inherit;
     margin: 0 auto;
-    font-size: 0.8em;	
+    font-size: 0.6em;	
 }
 
 /*
